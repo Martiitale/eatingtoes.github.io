@@ -64,7 +64,7 @@
   <div class="flower" onclick="window.open('https://forms.gle/tu-formulario-secreto', '_blank')">🌸</div>
 
   <section>
-    <h1>Hey Evan 👀</h1>
+    <h1>Hey</h1>
     <p>Esta no es una web cualquiera. Aquí hay escondido un <strong>código</strong> que solo tú puedes encontrar.</p>
     <p>Buena suerte... o no la necesitarás </p>
   </section>
