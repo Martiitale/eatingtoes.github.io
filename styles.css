@@ -3,13 +3,46 @@ body {
   padding: 0;
   font-family: "Courier New", monospace;
   background-image: url("resources/background.jpg");
-  background-size: 200%;
+  background-size: 300%;
   background-repeat: no-repeat;
 }
 
+#imagen1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+#abrirpagina {
+  display: flex;
+  justify-content: end;
+}
+
+#abrirpagina a {
+  color: darkgoldenrod;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+#imagen2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+#pulsame {
+  margin-right: 80px;
+  color: darkgoldenrod;
+  text-decoration: underline;
+  font-size: 30px;
+  font-weight: bold;
+}
+
 .ilustracion {
-    width: 200px;
-    height: 200px;
+  width: 400px;
+  height: 400px;
 }
 
 .contenedor {
@@ -17,17 +50,17 @@ body {
   scroll-behavior: smooth;
 }
 
-#section {
+.section {
   padding: 10px 20px;
   text-align: center;
 }
 
 .estrellas {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
 }
 
-.buenas {
+#buenas {
   display: flex;
 }
 
@@ -58,6 +91,10 @@ p {
   color: #0077ff;
   cursor: pointer;
   text-decoration: underline;
+}
+
+#palabras {
+  margin-left: 60%;
 }
 
 .hidden-code {
